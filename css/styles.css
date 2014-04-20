@@ -133,10 +133,10 @@ body { background:none;padding:0;margin:0; }
 
 #nav li {
 	float: left; padding:0 21px 0 21px;}
-#nav li a { font-size:13px; text-transform:uppercase; color:#00aaff; font-weight:800;}
+#nav li a { font-size:13px; text-transform:uppercase; color:#7AC5CD; font-weight:800;}
 #nav li a:hover { text-decoration:none; color:#ff1ab3; }
 #nav li a.current { text-decoration:none; color:#FF00AA; }
-#welcome {float:left; padding-top:10px; width:100% ; height:300px; background-image:url('/images/carousel.jpg');padding-bottom:10px; background-repeat:no-repeat; background-size:contain; border-bottom:3px solid #00FF00 ; }
+#welcome {float:left; padding-top:10px; width:100% ; height:311px; background-image:url('/images/carousel.jpg');padding-bottom:10px; background-repeat:no-repeat; background-size:contain; border-bottom:3px solid #00FF00 ; }
 
 .topwest {  float:left; padding:0; margin:0; width:100% ; height:auto;  }
 
@@ -196,7 +196,7 @@ a.orangelinks {  display:inline-block; width:180px; height:180px; position:relat
 
 
 .footer1 {font-size:15px;}
-#midcontent {width:100%; height:700px; padding-top:10px; float:left; }
+#midcontent {width:100%; height:700px; padding-top:30px; float:left; }
 
 
 
@@ -206,5 +206,5 @@ a.orangelinks {  display:inline-block; width:180px; height:180px; position:relat
 a.orangelinks:hover { background:#FF6600;  }
 
 
-
+#pikevim {margin-left:500px;}
 
