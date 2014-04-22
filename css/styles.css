@@ -99,7 +99,15 @@ hr { background-color:transparent;border:none;border-top:1px dotted #40c6e3;marg
 
 /* styles */
 body { background:none;padding:0;margin:0; }
-#backkustom { width:100%;background:#2ab0ed; }
+#backkustom { width:100%;background: rgb(235,233,249); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(235,233,249,1) 0%, rgba(216,208,239,1) 50%, rgba(206,199,236,1) 51%, rgba(193,191,234,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(235,233,249,1)), color-stop(50%,rgba(216,208,239,1)), color-stop(51%,rgba(206,199,236,1)), color-stop(100%,rgba(193,191,234,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(235,233,249,1) 0%,rgba(216,208,239,1) 50%,rgba(206,199,236,1) 51%,rgba(193,191,234,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea',GradientType=0 ); /* IE6-9 */
+}
 #wrapper { width:1070px;padding:0 30px;margin:0 auto;background:#fff; }
 	#wrapper #head { overflow:hidden;background:#ffffff url(../i/bg.png); }
 		#wrapper #head h1 { padding:11px 38px 38px 38px;background-color:#ffffff;float:left;margin:0 0 0 25px;z-index:10;position:relative; }
@@ -140,8 +148,8 @@ body { background:none;padding:0;margin:0; }
 
 .bestfont2 { font-size:21px; float:center; text-align:center;z-index:10; color:#fff;font-family: 'Nunito', sans-serif; font-weight:800;text-transform:none;text-shadow:0 0 0 transparent, -1px 1px 2px #000; margin-left:3px; margin-top:65px; text-transform:uppercase}
 
-.bestfont3 { font-size:12px; float:right; z-index:10; color: #000;text-shadow:none; text-transform:none; margin-left:10px; margin-top:-75px;font-family: 'Nunito', sans-serif; font-weight:bold;}
-.bestfont7 { font-size:12px; float:right; z-index:10; color:#000;text-shadow:none; font-family: 'Nunito', sans-serif;text-transform:none; font-family: 'Nunito', sans-serif; margin-left:10px; margin-top:-55px; font-weight:bold;}
+.bestfont3 { font-size:12px; float:left; color: #CDCDCD;text-shadow:none; text-transform:none; margin-left:10px; margin-top:0px;font-family: 'Nunito', sans-serif; font-weight:bold;}
+.bestfont7 { font-size:12px; float:left; color:#CDCDCD;text-shadow:none; font-family: 'Nunito', sans-serif;text-transform:none; font-family: 'Nunito', sans-serif; margin-left:10px; margin-top:0px; font-weight:bold;}
 .bestfont8 { font-size:12px; float:right; z-index:10; color:#000;text-shadow:none; text-transform:none; margin-left:10px; margin-top:-35px;font-family: 'Nunito', sans-serif; font-weight:bold;}
 .bestfont4 { font-size:24px; font-family: 'Nunito', sans-serif; z-index:10; color:#FF00AA; text-transform:none; margin-left:10px; margin-top:10px;text-shadow:0 0 0 transparent, -1px 1px 2px #000;}
 
